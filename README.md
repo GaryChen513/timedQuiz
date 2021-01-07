@@ -1,9 +1,9 @@
-# timedQuiz
+# Timed Quiz
 
-## Javascirpt Quiz.##
+## Javascirpt Quiz.
 As you proceed in your career as a web developer, you will probably be asked to complete a coding assessment. These assessments are typically a combination of multiple-choice questions and interactive challenges. 
 
-## Instructions##
+## Instructions
 From scratch, a timer-based quiz application that stores high scores is built. The score will be determined by how less time you have spent on completing this quiz.
 
 Here are some guidelines:
