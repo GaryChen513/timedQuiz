@@ -18,3 +18,7 @@ When time runs out or all questions are answered, the user will be presented wit
 
 This application is responsive, ensuring that it adapts to multiple screen sizes.
 
+## Screenshots
+
+![code quiz](./Assets/HomePage.png)
+
