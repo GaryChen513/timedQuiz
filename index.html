@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+    <header class="navbar">
+        <div class="score">
+            <a href="highScores.html">View Highest Scores</a>
+        </div>
+        <div class="timer">
+            <div id="minutes">2</div> <span id="colon"> : </span> <div id="seconds">00</div>
+        </div>
+    </header>
+
+    <div class="container" id="home">
+        <h1>Coding Quiz Challenge</h1>
+        <p>
+            Try to answer the following code-related question within the time limit. Keep in mind that skipping question or incorrect answer will penalise your scoretime by 20 seconds!
+        </p>
+        <div class="homeBtn">
+            <button type="button" id="start-quiz">Start Quiz</button>
+        </div>
+    </div>
+
+    <div class="container display-none" id="quiz" >
+        <div class="questionText"></div>
+        <div class="form">
+            <div id="options"></div>
+            <div id="msg"></div>
+            <button type="button" id="nextBtn">Next</button>
+        </div>
+    </div>
+
+    <div class="container display-none" id="submit-score">
+        <h2>All done !</h2>
+        <span id="test-score"></span>
+        <form class="form-group">
+            <label for="user-score">Enter initials: </label>
+            <input type="text" id="user-name" name="user-name">
+            <input type="button" value="Submit" id="submit-button">
+        </form>
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>
