@@ -19,6 +19,11 @@ When time runs out or all questions are answered, the user will be presented wit
 This application is responsive, ensuring that it adapts to multiple screen sizes.
 
 ## Screenshots
+Home Page:
+![HomePage](./Assets/HomePage.png)
 
-![code quiz](./Assets/HomePage.png)
+Quiz Page:
+![QuizpAGE](./Assets/QuizPage.png)
 
+HighScore Page
+![ScorePage](./Assets/HighScore_Page.png)
